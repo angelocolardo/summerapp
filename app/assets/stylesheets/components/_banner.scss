@@ -4,7 +4,7 @@
   background-position: center;
   padding: 200px 0;
   margin-top: 0px;
-  height: 100vh;
+  height: 96vh;
   position: relative;
 }
 
@@ -41,9 +41,16 @@
 }
 
 .btn {
-  width: 364px;
+
   position: absolute;
   bottom: 14px;
-  height:44px;
+  left:0px;
 }
+.btn-light:hover {
+  color: white;
+  background-color: skyblue;
 
+}
+.container {
+  padding-left: 0px;
+}
