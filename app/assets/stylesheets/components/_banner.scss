@@ -5,23 +5,45 @@
   padding: 200px 0;
   margin-top: 0px;
   height: 100vh;
+  position: relative;
 }
 
+
 .banner h1 {
+  position: absolute;
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 5rem;
+  font-weight: bold;
+  top: 55px;
+  left:20px
+}
+.banner h2 {
+  position: absolute;
   margin: 0;
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 26px;
   font-weight: bold;
+  top: 136px;
+  left: 24px;
 }
 
 .banner p {
+  position: absolute;
   font-size: 20px;
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  top: 166px;
+  left: 25px;
 }
 
 .btn {
-  width: 340px;
+  width: 364px;
+  position: absolute;
+  bottom: 14px;
+  height:44px;
 }
+
